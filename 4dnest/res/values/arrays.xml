@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="listStreamFrequencies">
+ <item>15 minutes</item>
+ <item>30 minutes</item>
+ <item>60 minutes</item>
+</string-array>
+<string-array name="listStreamValues">
+ <item>15</item>
+ <item>30</item>
+ <item>60</item>
+</string-array>
+
+<string-array name="gpsUpdateFrequencyNames">
+    <item>5 seconds</item>
+    <item>30 seconds</item>
+    <item>60 seconds</item>
+</string-array>
+<string-array name="gpsUpdateFrequencyValues">
+    <item>5000</item>
+    <item>30000</item>
+    <item>60000</item>
+</string-array>
+
+<string-array name="gpsUpdateDistanceNames">
+    <item>No minimum</item>
+    <item>5 meters</item>
+    <item>30 meters</item>
+</string-array>
+
+<string-array name="gpsUpdateDistanceValues">
+    <item>0</item>
+    <item>5</item>
+    <item>30</item>
+</string-array>
+
+<string-array name="streamSizeNames">
+    <item>10</item>
+    <item>30</item>
+    <item >100</item>
+</string-array>
+
+<string-array name="streamSizeValues">
+    <item>10</item>
+    <item>30</item>
+    <item >100</item>
+</string-array>
+
+</resources>

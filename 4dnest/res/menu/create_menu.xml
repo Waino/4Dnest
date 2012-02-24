@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_create_discard"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/menu_discard"></item>
+    <item
+        android:id="@+id/menu_create_drafts"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/menu_drafts"></item>
+    <item
+        android:id="@+id/menu_create_pref"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/menu_settings"></item>
+    <item
+        android:id="@+id/menu_create_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/menu_help"></item>
+</menu>

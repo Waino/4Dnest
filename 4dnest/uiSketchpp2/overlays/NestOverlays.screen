@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Rectangle" id="1" x="16" y="16" width="320" height="38" text="neighbour-watch" measuredWidth="320" measuredHeight="38" background="#f1c232" border="none" icon="computer (medium)" link="../Servers.screen">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="2" x="16" y="72" width="320" height="38" text="Fishing Club" measuredWidth="320" measuredHeight="38" background="#f1c232" border="none" icon="computer (medium)" link="../Servers.screen">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="3" x="16" y="123" width="320" height="38" text="Rust never rusts" measuredWidth="320" measuredHeight="38" background="#f1c232" border="none" icon="computer (medium)" link="../Servers.screen">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="4" x="16" y="171" width="320" height="38" text="Bates-family" measuredWidth="320" measuredHeight="38" background="#f1c232" border="none" icon="computer (medium)" link="../Servers.screen">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="5" x="16" y="224" width="320" height="38" text="NestServer" measuredWidth="320" measuredHeight="38" background="#f1c232" border="none" icon="computer (medium)" link="../Servers.screen">
+    <font size="14" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

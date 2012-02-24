@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BlackTextNoTitleBar" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Mandatory overwrite for Dialogs -->
+    <style name="BlackDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

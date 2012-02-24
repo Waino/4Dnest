@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="97" measuredWidth="396" measuredHeight="790">
+    <widgets xsi:type="model:WidgetGroup" id="55" measuredWidth="396" measuredHeight="790">
+      <widgets xsi:type="model:WidgetGroup" id="56" y="281" measuredWidth="396" measuredHeight="509">
+        <widgets xsi:type="model:Circle" id="57" y="324" width="396" height="185" measuredWidth="396" measuredHeight="185" background="#444444" foreground="#444444">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Rectangle" id="58" width="395" height="415" measuredWidth="395" measuredHeight="415" background="#444444" foreground="#444444">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="59" measuredWidth="396" measuredHeight="763">
+        <widgets xsi:type="model:Circle" id="60" y="586" width="396" height="177" measuredWidth="396" measuredHeight="177" background="#666666" foreground="#666666">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Circle" id="61" width="396" height="177" measuredWidth="396" measuredHeight="177" background="#666666" foreground="#666666">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Rectangle" id="62" y="86" width="395" height="585" measuredWidth="395" measuredHeight="585" background="#666666" foreground="#666666">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="63" x="10" y="28" measuredWidth="376" measuredHeight="674">
+        <widgets xsi:type="model:Circle" id="64" y="582" width="376" height="92" measuredWidth="376" measuredHeight="92" background="#000000">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Circle" id="65" width="376" height="115" measuredWidth="376" measuredHeight="115" background="#000000">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Rectangle" id="66" y="53" width="375" height="574" measuredWidth="375" measuredHeight="574" background="#000000">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:Rectangle" id="67" x="121" y="16" width="153" height="9" measuredWidth="153" measuredHeight="9" background="#999999" border="solid-rounded">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="68" x="180" y="714" width="36" height="36" measuredWidth="36" measuredHeight="36" background="#999999">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="69" x="70" y="649" measuredWidth="260" measuredHeight="16">
+        <widgets xsi:type="model:Icon" id="70" measuredWidth="16" measuredHeight="16" foreground="#ffffff" icon="undo (small)"/>
+        <widgets xsi:type="model:Icon" id="71" x="162" measuredWidth="16" measuredHeight="16" foreground="#ffffff" icon="home (small)"/>
+        <widgets xsi:type="model:Icon" id="72" x="244" measuredWidth="16" measuredHeight="16" foreground="#ffffff" icon="find (small)"/>
+        <widgets xsi:type="model:WidgetGroup" id="73" x="82" measuredWidth="14" measuredHeight="15">
+          <widgets xsi:type="model:HLine" id="74" width="14" measuredWidth="14" measuredHeight="6" foreground="#ffffff"/>
+          <widgets xsi:type="model:HLine" id="75" x="4" y="3" width="10" measuredWidth="10" measuredHeight="6" foreground="#ffffff"/>
+          <widgets xsi:type="model:HLine" id="76" x="4" y="9" width="10" measuredWidth="10" measuredHeight="6" foreground="#ffffff"/>
+          <widgets xsi:type="model:HLine" id="77" x="4" y="6" width="10" measuredWidth="10" measuredHeight="6" foreground="#ffffff"/>
+        </widgets>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="78" x="38" y="89" width="320" height="536" measuredWidth="320" measuredHeight="536" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="79" x="38" y="89" measuredWidth="320" measuredHeight="28">
+      <widgets xsi:type="model:Rectangle" id="80" width="320" height="28" text="11:22" measuredWidth="320" measuredHeight="28" background="#444444" border="none" textAlignment="Right">
+        <font size="8" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="81" x="209" y="6" measuredWidth="16" measuredHeight="16" foreground="#00ff00" icon="wifi (small)"/>
+      <widgets xsi:type="model:Icon" id="82" x="233" y="6" measuredWidth="16" measuredHeight="16" foreground="#00ff00" icon="signal (small)"/>
+      <widgets xsi:type="model:Icon" id="83" x="257" y="6" measuredWidth="16" measuredHeight="16" foreground="#00ff00" icon="battery (small)"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="84" x="68" y="219" width="113" height="113" measuredWidth="113" measuredHeight="113" background="#cfe2f3" icon="snapshot (xlarge)">
+      <font size="20" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="85" x="212" y="219" width="113" height="113" measuredWidth="113" measuredHeight="113" background="#cfe2f3" icon="video (xlarge)">
+      <font size="20" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="86" x="68" y="363" width="113" height="113" measuredWidth="113" measuredHeight="113" background="#cfe2f3" icon="microphone (xlarge)">
+      <font size="20" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="87" x="212" y="363" width="113" height="113" measuredWidth="113" measuredHeight="113" background="#cfe2f3" icon="edit (xlarge)">
+      <font size="20" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="88" x="38" y="155" width="320" text="&lt;&lt;Read                             Create                     Stored Eggs>>" measuredWidth="320" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Rectangle" id="89" x="38" y="116" width="320" height="38" text="Fishing Club" measuredWidth="320" measuredHeight="38" background="#f1c232" border="none" icon="computer (medium)" link="Servers.screen">
+      <font size="14" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="90" x="38" y="491" width="320" height="70" text="Use Existing Media" measuredWidth="320" measuredHeight="70" icon="open (large)">
+      <font size="14" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="91" x="38" y="560" width="320" height="65" text="Track\nRoute, \nBiketrip" measuredWidth="320" measuredHeight="65" selection="0">
+      <font size="14" bold="true"/>
+      <items x="0" y="0" width="141" height="65" text="Track\nRoute"/>
+      <items link="Profiles.screen" x="141" y="0" width="179" height="65" text="\nBiketrip"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="92" x="68" y="299" width="113" text="Take Photo" measuredWidth="113" measuredHeight="25" textAlignment="Center">
+      <font size="10" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="93" x="212" y="299" width="113" text="Record Video" measuredWidth="113" measuredHeight="25" textAlignment="Center">
+      <font size="10" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="94" x="68" y="443" width="113" text="Record Sound" measuredWidth="113" measuredHeight="25" textAlignment="Center">
+      <font size="10" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="95" x="212" y="443" width="113" text="Write Message" measuredWidth="113" measuredHeight="25" textAlignment="Center">
+      <font size="10" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="96" x="180" y="563" width="178" text="Current Profile" measuredWidth="178" measuredHeight="28" textAlignment="Center" foreground="#999999">
+      <font size="11" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="47" x="38" y="116" width="320" height="509" measuredWidth="320" measuredHeight="509" alpha="192"/>
+  <widgets xsi:type="model:Tooltip" id="49" x="68" y="184" width="189" height="73" text="You can change screens by swiping left or right" measuredWidth="189" measuredHeight="73" position="topLeft">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Tooltip" id="52" x="136" y="126" width="201" height="41" text="Press to change current Nest" measuredWidth="201" measuredHeight="41" position="topRight">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Tooltip" id="53" x="112" y="540" width="89" height="45" text="Toggle GPS" measuredWidth="89" measuredHeight="45">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Tooltip" id="54" x="224" y="544" width="113" height="41" text="Change Profile" measuredWidth="113" measuredHeight="41" position="bottomRight">
+    <font size="10" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+            android:title="@string/prefs_category_nest_title">
+
+        <CheckBoxPreference
+                android:key="allow_all_certs"
+                android:summaryOn="@string/prefs_nest_accept_all_certs_ondescr"
+                android:summaryOff="@string/prefs_nest_accept_all_certs_offdescr"
+                android:summary="@string/prefs_nest_accept_all_certs_descr"
+                android:title="@string/prefs_nest_accept_all_certs_title" >
+        </CheckBoxPreference>
+
+        <EditTextPreference
+                android:key="nest_base_uri"
+                android:summary="@string/prefs_nest_uri_descr"
+                android:title="@string/prefs_nest_uri_title" >
+        </EditTextPreference>
+
+        <EditTextPreference
+                android:key="nest_username"
+                android:summary="@string/prefs_nest_username_descr"
+                android:title="@string/prefs_nest_username_title">
+        </EditTextPreference>
+
+        <EditTextPreference
+                android:key="nest_password"
+                android:summary="@string/prefs_nest_password_descr"
+                android:title="@string/prefs_nest_password_title">
+        </EditTextPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+            android:title="Application Settings">
+        <CheckBoxPreference
+                android:key="kiosk_mode"
+                android:summaryOn="@string/pref_kiosk_descr_on"
+                android:summaryOff="@string/pref_kiosk_descr_off"
+                android:title="@string/pref_kiosk_title" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="new_egg_loc_when_not_tracking"
+            android:summaryOn="@string/prefs_newegg_fetch_loc_descrOn"
+            android:summaryOff="@string/prefs_newegg_fetch_loc_descrOff"
+            android:defaultValue="true"
+            android:title="@string/prefs_newegg_fetch_loc_title"
+            android:enabled="true" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/prefs_category_stream_title">
+        
+        <!--Stream frequency can only be selected from a pre-derminated list, because Alarmmanager's
+    setInexactRepeating requires a specific value-->
+        <ListPreference
+                android:key="stream_frequency"
+                android:summary="@string/stream_update_frequency_descr"
+                android:title="@string/stream_update_frequency_title"
+                android:entries="@array/listStreamFrequencies"
+                android:entryValues="@array/listStreamValues"
+                android:defaultValue = "30"/>
+
+        <ListPreference
+                android:key="stream_size"
+                android:summary="@string/stream_size_descr"
+                android:title="@string/stream_size_title"
+                android:entries="@array/streamSizeNames"
+                android:entryValues="@array/streamSizeValues"
+                android:defaultValue = "30"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/prefs_category_gps_title">
+        <ListPreference
+            android:key="gps_update_frequency"
+            android:title="@string/prefs_gps_update_freq_title"
+            android:summary="@string/prefs_gps_update_freq_descr"
+            android:entries="@array/gpsUpdateFrequencyNames"
+            android:entryValues="@array/gpsUpdateFrequencyValues"
+            android:defaultValue="5000"
+            />
+        
+        <ListPreference
+            android:key="gps_update_mindistance"
+            android:title="@string/prefs_gps_update_min_distance_title"
+            android:summary="@string/prefs_gps_update_min_distance_descr"
+            android:entries="@array/gpsUpdateDistanceNames"
+            android:entryValues="@array/gpsUpdateDistanceValues"
+            android:defaultValue="5"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

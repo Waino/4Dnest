@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:paddingBottom="40dp" 
+    android:paddingTop="5dp"
+>
+	<org.fourdnest.androidclient.ui.FlowLayout
+	    xmlns:f="http://schemas.android.com/apk/res/org.fourdnest.androidclient"
+	    android:id="@+id/tag_flowlayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    f:horizontalSpacing="3dp"
+		f:verticalSpacing="3dp"
+	>
+	</org.fourdnest.androidclient.ui.FlowLayout>
+	<TableLayout
+	android:id="@+id/autocomplete_row"
+	android:layout_width="fill_parent"
+	android:layout_height="60dp"
+	android:stretchColumns="0">
+	<TableRow>
+	<AutoCompleteTextView android:id="@+id/autocomplete_tag"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="5dp"
+	android:hint="@string/add_tag_here"/>
+	<Button
+	android:id="@+id/add_tag_button"
+	android:layout_width="80dp"
+	android:layout_height="wrap_content"
+	android:text="@string/add_tag_button" 
+	/>
+	</TableRow>
+	</TableLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/read_stream_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        >"
+        
+        <ToggleButton
+            android:id="@+id/route_tracker_button"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:paddingTop="2dp"
+            android:textOn="@string/stream_reader_gps_button_tracking"
+        	android:textOff="@string/stream_reader_gps_button_nottracking"
+        	android:gravity="center_horizontal"
+        	/>
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp" 
+            android:layout_weight="1"
+            android:paddingTop="2dp"
+            android:text="@string/read_stream_create_button"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/create_screen_text_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/create_screen_navigation_bar"
+        android:background="#000000"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stream_reader_title" />
+    
+        <LinearLayout
+        android:id="@+id/create_screen_text_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/create_screen_navigation_bar"
+        android:background="#000000"
+        android:orientation="vertical" />
+
+    <ListView
+        android:id="@+id/egg_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>

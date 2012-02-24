@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="16" y="16" measuredWidth="320" measuredHeight="472">
+    <widgets xsi:type="model:List" id="2" width="320" height="472" text="*neighbour-watch*&#xD;&#xA;Fishing Club&#xD;&#xA;Rust never rusts&#xD;&#xA;Bates-family&#xD;&#xA;NestServer&#xD;&#xA;Add New Nest...&#xD;&#xA; " measuredWidth="320" measuredHeight="472" selection="0" verticalScrollbar="true" rowHeight="50" horizontalLines="true">
+      <font/>
+      <items x="0" y="2" width="303" height="50" text="*neighbour-watch*"/>
+      <items x="0" y="52" width="303" height="50" text="Fishing Club"/>
+      <items x="0" y="102" width="303" height="50" text="Rust never rusts"/>
+      <items x="0" y="152" width="303" height="50" text="Bates-family"/>
+      <items x="0" y="202" width="303" height="50" text="NestServer"/>
+      <items x="0" y="252" width="303" height="50" text="Add New Nest..."/>
+      <items x="0" y="302" width="303" height="50" text=" "/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="3" x="264" y="7" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+    <widgets xsi:type="model:Icon" id="4" x="264" y="63" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+    <widgets xsi:type="model:Icon" id="5" x="264" y="111" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+    <widgets xsi:type="model:Icon" id="6" x="264" y="159" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+    <widgets xsi:type="model:Icon" id="7" x="264" y="209" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+    <widgets xsi:type="model:Icon" id="8" x="264" y="263" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

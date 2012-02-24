@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!--
+     :nextFocusUp and :nextFocusLeft have been set to the id of this component
+     to prevent the dummy from receiving focus again
+    -->
+
+    <ScrollView
+        android:id="@+id/new_egg_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- buttom padding needs to be 40dp or buttons at end will over run this view -->
+
+        <LinearLayout
+            android:id="@+id/new_egg_inputs_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40dp"
+            android:paddingTop="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/new_egg_upper_buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal" >
+
+                <ImageButton
+                    android:id="@+id/select_audio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10px"
+                    android:src="@drawable/audio_create" />
+
+                <ImageButton
+                    android:id="@+id/select_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10px"
+                    android:layout_toRightOf="@+id/select_audio"
+                    android:src="@drawable/image_create" />
+
+                <ImageButton
+                    android:id="@+id/select_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10px"
+                    android:layout_toRightOf="@+id/select_image"
+                    android:src="@drawable/video_create" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/new_photo_egg_thumbnail_view"
+                android:layout_width="fill_parent"
+                android:layout_height="150sp"
+                android:cropToPadding="true"
+                android:onClick="new_photo_egg_preview_pic"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/new_photo_egg_thumbnail_view2"
+                android:layout_width="fill_parent"
+                android:layout_height="120sp"
+                android:cropToPadding="true"
+                android:onClick="new_photo_egg_preview_pic"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:visibility="gone" />
+
+        <LinearLayout
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="vertical"
+        		android:id="@+id/new_photo_egg_caption_and_tag_part" >
+            
+        	<Button 
+        		android:id="@+id/to_map_button"
+        		android:layout_height="wrap_content"
+       			android:layout_width="wrap_content"
+        		android:text="@string/to_map_button_name"/>      
+                  
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/preview" />
+
+            <EditText
+                android:id="@+id/new_photo_egg_caption_view"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="top"
+                android:hint="@string/add_message_here"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/locationcontainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_egg_getting_location" />
+    	
+    	</LinearLayout>
+            <!--
+             <EditText
+    	    android:layout_width="fill_parent"
+    	    android:layout_height ="60px"
+    	    android:layout_above="@+id/new_photo_egg_send_egg_button"
+    	    android:hint="tags"/>
+            -->
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button
+
+            android:id="@+id/edit_egg_save_draft_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/new_egg_save_as_draft"/>
+    	
+
+        <Button
+            android:id="@+id/new_photo_egg_send_egg_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/send_egg_to_nest" />
+    </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    
+    
+
+</RelativeLayout>

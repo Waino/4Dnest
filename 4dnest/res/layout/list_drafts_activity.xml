@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+    The following TextView covers up the entire drafts view when set visible
+    Used for displaying a cover-up when there are no drafts
+    -->
+
+    <TextView
+        android:id="@+id/no_drafts_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/no_drafts_text"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/draft_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </ListView>
+
+    <!-- Send All button hidden due to incomplete implementation -->
+
+    <Button
+        android:id="@+id/send_all_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/send_all_drafts_button_text"
+        android:visibility="gone" />
+
+</LinearLayout>
