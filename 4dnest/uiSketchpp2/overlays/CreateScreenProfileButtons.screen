@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="8" x="16" y="16" measuredWidth="178" measuredHeight="65">
+    <widgets xsi:type="model:Button" id="1" width="178" height="65" text="\nDefault" measuredWidth="178" measuredHeight="65">
+      <font size="14" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="7" width="178" text="Current Profile" measuredWidth="178" measuredHeight="28" textAlignment="Center" foreground="#999999">
+      <font size="11" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="16" y="96" measuredWidth="178" measuredHeight="65">
+    <widgets xsi:type="model:Button" id="11" width="178" height="65" text="\nNeighbour-Patrol" measuredWidth="178" measuredHeight="65">
+      <font size="14" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="12" width="178" text="Current Profile" measuredWidth="178" measuredHeight="28" textAlignment="Center" foreground="#999999">
+      <font size="11" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="16" y="176" measuredWidth="178" measuredHeight="65">
+    <widgets xsi:type="model:Button" id="14" width="178" height="65" text="\nBiketrip" measuredWidth="178" measuredHeight="65">
+      <font size="14" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="15" width="178" text="Current Profile" measuredWidth="178" measuredHeight="28" textAlignment="Center" foreground="#999999">
+      <font size="11" underline="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

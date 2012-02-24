@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="4" x="12" y="13" measuredWidth="717" measuredHeight="868">
+    <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen#Phone"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:TextArea" x="548" y="235" width="161" height="197" text="Add original media to your Egg.&#xD;&#xA;&#xD;&#xA;Supported media types:&#xD;&#xA;-Image&#xD;&#xA;-Video&#xD;&#xA;-Audio&#xD;&#xA;-Text">
+          <font size="12"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Arrow" x="340" y="263" width="201" height="69" annotation="true" foreground="#674ea7"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Arrow" x="347" y="342" width="194" height="105" annotation="true" foreground="#674ea7" direction="bottom"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:ButtonBar" y="811" width="396" height="57" text="Swipe Left, Swipe Right" selection="0">
+          <font size="12" bold="false" italic="false"/>
+          <items link="Read.screen" text="Swipe Left"/>
+          <items link="StoredEggs.screen" text="Swipe Right"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:TextArea" x="564" y="595" width="153" height="121" text="Button displays current profile name. Press to enter Profile Editing Activity">
+          <font size="12"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Arrow" x="316" y="580" width="233" height="56" annotation="true" foreground="#674ea7"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Arrow" x="164" y="603" width="401" height="169" annotation="true" foreground="#674ea7"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:TextArea" x="572" y="733" width="145" height="57" text="Toggle button for position tracking">
+          <font size="12"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:ButtonBar" x="38" y="560" width="320" height="65" text="Track\nRoute, Biketrip" selection="0">
+          <font size="14" bold="true"/>
+          <items text="Track\nRoute"/>
+          <items link="Profiles.screen" text="Biketrip"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:TextArea" x="564" y="495" width="153" height="81" text="Press to add media library data to current egg">
+          <font size="12"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Arrow" x="332" y="523" width="201" height="25" annotation="true" foreground="#674ea7"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="38" y="491" width="320" height="70" text="Pick from Media Library" icon="open (large)">
+          <font size="14" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Rectangle" x="38" y="116" width="320" height="38" text="NestServer" background="#f1c232" border="none" icon="computer (medium)" link="Nests.screen">
+          <font size="14" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:TextField" x="38" y="155" width="320" text="&lt;&lt;Read                             Create                     Stored Eggs>>">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="212" y="363" width="113" height="113" background="#cfe2f3" icon="word (xlarge)">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="68" y="363" width="113" height="113" background="#cfe2f3" icon="microphone (xlarge)">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="212" y="219" width="113" height="113" background="#cfe2f3" icon="video (xlarge)">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="68" y="219" width="113" height="113" background="#cfe2f3" icon="snapshot (xlarge)" link="PhotoEdit.screen">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

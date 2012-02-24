@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="4" x="12" y="13" measuredWidth="396" measuredHeight="790">
+    <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen#Phone"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Label" x="180" y="563" width="178" text="Current Profile" textAlignment="Center" foreground="#999999">
+          <font size="11" underline="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Label" x="212" y="443" width="113" text="Write Message" textAlignment="Center">
+          <font size="10" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Label" x="68" y="443" width="113" text="Record Sound" textAlignment="Center">
+          <font size="10" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Label" x="212" y="299" width="113" text="Record Video" textAlignment="Center">
+          <font size="10" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Label" x="68" y="299" width="113" text="Take Photo" textAlignment="Center">
+          <font size="10" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:ButtonBar" x="38" y="560" width="320" height="65" text="Track\nRoute, \nBiketrip" selection="0">
+          <font size="14" bold="true"/>
+          <items text="Track\nRoute"/>
+          <items link="Profiles.screen" text="\nBiketrip"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="38" y="491" width="320" height="70" text="Use Existing Media" icon="open (large)">
+          <font size="14" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Rectangle" x="38" y="116" width="320" height="38" text="Fishing Club" background="#f1c232" border="none" icon="computer (medium)" link="Servers.screen">
+          <font size="14" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:TextField" x="38" y="155" width="320" text="&lt;&lt;Read                             Create                     Stored Eggs>>">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="212" y="363" width="113" height="113" background="#cfe2f3" icon="edit (xlarge)">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="68" y="363" width="113" height="113" background="#cfe2f3" icon="microphone (xlarge)">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="212" y="219" width="113" height="113" background="#cfe2f3" icon="video (xlarge)">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="3">
+        <object xsi:type="model:Button" x="68" y="219" width="113" height="113" background="#cfe2f3" icon="snapshot (xlarge)" link="PhotoEdit.screen">
+          <font size="20" bold="true"/>
+        </object>
+      </widgetChanges>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="96" y="312" width="81" text="Take Photo" measuredWidth="81" measuredHeight="25" textAlignment="Center">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="240" y="312" width="81" text="Record Video" measuredWidth="81" measuredHeight="25" textAlignment="Center">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="88" y="456" width="97" text="Record Sound" measuredWidth="97" measuredHeight="25" textAlignment="Center">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="224" y="456" width="113" text="Write Message" measuredWidth="113" measuredHeight="25" textAlignment="Center">
+    <font size="10" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

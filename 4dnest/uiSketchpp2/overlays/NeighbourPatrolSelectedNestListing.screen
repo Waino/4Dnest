@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="24" y="16" measuredWidth="320" measuredHeight="472">
+    <widgets xsi:type="model:WidgetGroup" id="8" measuredWidth="320" measuredHeight="472">
+      <widgets xsi:type="model:List" id="7" width="320" height="472" text="Default&#xA;Biketrip&#xA;|*Neighbour-Patrol*&#xA;Create new Profile...&#xA; " measuredWidth="320" measuredHeight="472" verticalScrollbar="true" rowHeight="50" horizontalLines="true">
+        <font/>
+        <items x="0" y="2" width="303" height="50" text="Default"/>
+        <items x="0" y="52" width="303" height="50" text="Biketrip"/>
+        <items x="0" y="102" width="303" height="50" text="|*Neighbour-Patrol*"/>
+        <items x="0" y="152" width="303" height="50" text="Create new Profile..."/>
+        <items x="0" y="202" width="303" height="50" text=" "/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="3" x="264" y="16" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+      <widgets xsi:type="model:Icon" id="4" x="264" y="64" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+      <widgets xsi:type="model:Icon" id="5" x="264" y="112" measuredWidth="32" measuredHeight="32" icon="wrench (large)"/>
+      <widgets xsi:type="model:Icon" id="6" x="264" y="168" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>
